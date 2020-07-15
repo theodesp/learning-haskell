@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-gcd<learning-haskell_da752f1e>",
+            "request": "launch",
+            "mainClass": "problems.gcd.gcd",
+            "projectName": "learning-haskell_da752f1e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<learning-haskell_da752f1e>",
+            "request": "launch",
+            "mainClass": "problems.simplePrintStatements.Main",
+            "projectName": "learning-haskell_da752f1e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-subArraySum<learning-haskell_da752f1e>",
+            "request": "launch",
+            "mainClass": "problems.subArraySum.subArraySum",
+            "projectName": "learning-haskell_da752f1e"
+        }
+    ]
+}
