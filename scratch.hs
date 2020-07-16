@@ -109,3 +109,17 @@ repeat x = take x $ cycle [x]
 
 subseq :: Int -> Int -> [a] -> [a]
 subseq x y list = take (y - x) (drop x list)
+
+myGCD a b = if remainder == 0
+            then b
+            else myGCD b remainder
+  where remainder = a `mod` b
+
+isEmpty [] = True
+isEmpty _ = False
+
+myHead (x:xs) = x
+myHead [] = error "No head for empty list"
+
+myTail [] = error "No tail for empty list"
+myTail (_:xs) = xs
