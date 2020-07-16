@@ -81,3 +81,31 @@ flipBinaryArgs binaryFunction = (\x y -> binaryFunction y x)
 
 subtract2from = flip subtract
 subtract2 x = subtract2from 2 x
+
+numbers = [1] ++ [2,3,4]
+
+lazyNumbers = [1 .. 10]
+
+decreasingNumbers = [1,0 .. -10]
+
+backwardsInfinity = reverse [1..]
+
+takeFirst = [1,2,3] !! 0
+
+sizeofList = length [1..20]
+
+isPalindrome word = word == reverse word
+
+takeLast n aList = reverse (take n (reverse aList))
+
+zipped = zip [1,2,3] [2,4,6]
+
+ones n = take n (cycle [1])
+
+assignToGroups n aList = zip groups aList
+  where groups = cycle [1..n]
+
+repeat x = take x $ cycle [x]
+
+subseq :: Int -> Int -> [a] -> [a]
+subseq x y list = take (y - x) (drop x list)
