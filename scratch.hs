@@ -72,3 +72,12 @@ getLocationFunction location = case location of
 
 addressLetter name location = locationFunction name
   where locationFunction = getLocationFunction location
+
+add4 a b c d = a + b + c + d
+
+addressLetterV2 location name = addressLetter name location
+
+flipBinaryArgs binaryFunction = (\x y -> binaryFunction y x)
+
+subtract2from = flip subtract
+subtract2 x = subtract2from 2 x
