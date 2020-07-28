@@ -123,3 +123,17 @@ myHead [] = error "No head for empty list"
 
 myTail [] = error "No tail for empty list"
 myTail (_:xs) = xs
+
+myDrop :: Int -> [a] -> [a]
+myDrop _ [] = []
+myDrop n ls = if n == 0
+                then ls
+                else
+                myDrop (n - 1) (tail ls)
+
+myTake _ [] = []
+myTake 0 _ = []
+myTake n (x:xs) = x:rest
+  where rest = myTake (n - 1) xs
+
+myCycle (first:rest) = first:myCycle (rest++[first])
