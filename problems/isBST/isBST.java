@@ -32,8 +32,15 @@ public class isBST {
         }
     }
 
+    /**
+     * Check if a tree is BST
+     * @param node
+     * @param left
+     * @param right
+     * @return
+     */
     public static boolean apply(TreeNode node, int left, int right) {
-        // We've reached the end.
+        // Base case.
         if (node == null) {
             return true;
         }

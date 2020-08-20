@@ -1,6 +1,12 @@
 package problems.gcd;
 
 public class gcd {
+    /**
+     * Using the Euclidian algorithm
+     * @param p
+     * @param q
+     * @return
+     */
     public static int apply(int p, int q) {
         if (q == 0) {
             return p;
