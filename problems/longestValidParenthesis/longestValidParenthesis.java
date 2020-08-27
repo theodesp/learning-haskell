@@ -1,4 +1,4 @@
-package problems.longestValidParenthesis;
+package longestValidParenthesis;
 
 import java.util.Stack;
 

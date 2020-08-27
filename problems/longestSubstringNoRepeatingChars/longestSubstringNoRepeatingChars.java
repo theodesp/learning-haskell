@@ -1,4 +1,4 @@
-package problems.longestSubstringNoRepeatingChars;
+package longestSubstringNoRepeatingChars;
 
 import java.util.HashSet;
 import java.util.Set;

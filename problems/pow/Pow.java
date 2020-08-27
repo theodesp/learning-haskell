@@ -1,4 +1,4 @@
-package problems.pow;
+package pow;
 
 public class Pow {
 

@@ -1,4 +1,4 @@
-package problems.countUniqueTriangles;
+package CountUniqueTriangles;
 
 import java.util.HashMap;
 import java.util.Map;

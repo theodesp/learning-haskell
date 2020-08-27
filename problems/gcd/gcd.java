@@ -1,4 +1,4 @@
-package problems.gcd;
+package gcd;
 
 public class gcd {
     /**

@@ -1,4 +1,4 @@
-package problems.reverseList;
+package reverseList;
 
 public class reverseList {
     static class List {

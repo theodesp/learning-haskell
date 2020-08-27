@@ -1,4 +1,4 @@
-package problems.subArraySum;
+package subArraySum;
 
 import java.util.Arrays;
 

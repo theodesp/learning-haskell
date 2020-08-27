@@ -1,4 +1,4 @@
-package problems.isBST;
+package isBST;
 
 public class isBST {
 
