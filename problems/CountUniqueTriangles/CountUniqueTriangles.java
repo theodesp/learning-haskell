@@ -10,7 +10,7 @@ public class CountUniqueTriangles {
         int N = a.length;
         ArrayList<int[]> sides = new ArrayList<int[]>(N);
         // store the frequency of triangles with same sides
-        HashMap<int[], Integer> m = new HashMap<int[], Integer>();
+        Map<int[], Integer> m = new HashMap<int[], Integer>();
         for (int i = 0; i < N; i += 1) {
             int[] entry = new int[]{a[i], b[i], c[i]};
             sides.set(i, entry);
